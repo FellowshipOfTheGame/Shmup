@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvh576stb81qw"]
+
+[ext_resource type="PackedScene" uid="uid://dwgyk3mxpxioo" path="res://Scenes/witch.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://Scenes/enemy.tscn" id="2_qxrlw"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Witch" parent="." instance=ExtResource("1_ebmjs")]
+position = Vector2(605, 561)
+
+[node name="Enemy" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(130, 89)
+
+[node name="Enemy2" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(282, 93)
+
+[node name="Enemy3" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(430, 88)
+
+[node name="Enemy4" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(558, 91)
+
+[node name="Enemy5" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(710, 90)
+
+[node name="Enemy6" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(900, 87)
+
+[node name="Enemy7" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(1018, 86)
+
+[node name="Enemy8" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(805, 134)
+
+[node name="Enemy9" parent="." instance=ExtResource("2_qxrlw")]
+position = Vector2(869, 163)
