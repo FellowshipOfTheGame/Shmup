@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdketac5g2oc8"]
+
+[ext_resource type="Script" uid="uid://67eqj4gemx2d" path="res://Scripts/weapon_level_default.gd" id="1_ho432"]
+[ext_resource type="PackedScene" uid="uid://clhjotdvvnvnu" path="res://Scenes/default_bullet.tscn" id="2_wl017"]
+
+[node name="WDefault1" type="Node"]
+script = ExtResource("1_ho432")
+bullet_scene = ExtResource("2_wl017")

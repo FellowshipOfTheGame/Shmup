@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dwgyk3mxpxioo"]
 
-[ext_resource type="Script" uid="uid://btpvv7vomy3jd" path="res://Scripts/witch.gd" id="1_61xru"]
+[ext_resource type="Script" uid="uid://btpvv7vomy3jd" path="res://Scripts/witch_movement.gd" id="1_61xru"]
 [ext_resource type="Texture2D" uid="uid://8foucwjrlk07" path="res://Sprites/witch.png" id="2_rrl02"]
 [ext_resource type="PackedScene" uid="uid://bymmrt877w8sg" path="res://Scenes/weapon.tscn" id="3_rrl02"]
 
