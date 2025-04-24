@@ -18,8 +18,8 @@ func get_stats() -> Dictionary: # GDScript ainda nao tem structs, entao tem que 
 # pra dar override nas funcoes dos filhos tem que fazer isso
 #func get_stats() -> Dictionary:
 	## Get base stats from parent
-	#var data = super.get_data()
+	#var stats = super.get_stats()
+	
 	## Add new stats
-	#data["explosion_radius"] = explosion_radius
-	#data["splash_damage"] = splash_damage
-	#return data
+	#stats["explosion_radius"] = explosion_radius
+	#return stats

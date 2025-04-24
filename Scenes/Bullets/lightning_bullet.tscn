@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://dfevp4rsbou35"]
+
+[ext_resource type="PackedScene" uid="uid://clhjotdvvnvnu" path="res://Scenes/Bullets/default_bullet.tscn" id="1_mo4f5"]
+[ext_resource type="Texture2D" uid="uid://d0r3bbcwol7cx" path="res://Sprites/lightning.png" id="2_e1pc5"]
+[ext_resource type="Script" uid="uid://c2f248ckfm4p6" path="res://Scripts/Bullets/bullet_lightning.gd" id="2_x6qoc"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_x6qoc"]
+
+[node name="Bullet" instance=ExtResource("1_mo4f5")]
+script = ExtResource("2_x6qoc")
+
+[node name="Sprite2D" parent="." index="0"]
+rotation = -0.528835
+texture = ExtResource("2_e1pc5")
+
+[node name="Area2D2" type="Area2D" parent="." index="2"]
+collision_layer = 0
+collision_mask = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2" index="0"]
+scale = Vector2(20, 20)
+shape = SubResource("CircleShape2D_x6qoc")
