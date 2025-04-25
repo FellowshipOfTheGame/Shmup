@@ -1,0 +1,74 @@
+[
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Ruby? O que você está fazendo aqui?"
+	},
+	{
+		"speaker": "Ruby",
+		"portrait": "",
+		"side": "right",
+		"text": "Você não se lembra? Você me prometeu que ia me ensinar a ler runas hoje!"
+	},
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Eu não tenho tempo para isso agora."
+	},
+	{
+		"speaker": "Ruby",
+		"portrait": "",
+		"side": "right",
+		"text": "Na-na-ni-na-não! Você não vai fugir de novo!"
+	},
+	{
+		"speaker": "Ruby",
+		"portrait": "",
+		"side": "right",
+		"text": "E de qualquer forma, o que você tem para fazer aqui que não pode esperar?"
+	},
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Estou indo buscar o Geodo no Inferno."
+	},
+	{
+		"speaker": "Ruby",
+		"portrait": "",
+		"side": "right",
+		"text": "Seu familiar? Por que só não invoca outro?"
+	},
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Por que eu tenho que explicar isso para você?"
+	},
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Espera, eu não tenho."
+	},
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Sai da frente, pirralha!"
+	},
+	{
+		"speaker": "Ruby",
+		"portrait": "",
+		"side": "right",
+		"text": "Tão malvada... Você vai me ensinar a ler runas queira você ou não!"
+	},
+	{
+		"speaker": "Ame",
+		"portrait": "",
+		"side": "left",
+		"text": "Já está na hora de alguém te ensinar boas maneiras."
+	}
+]
