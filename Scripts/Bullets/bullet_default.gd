@@ -12,7 +12,7 @@ func set_stats(new_stats: Dictionary) -> void:
 	velocity = Vector2( 0, -stats["bullet_speed"] )
 
 func _physics_process(delta: float) -> void:
-	move_and_slide() # funcao pra movimentar o player sozinho
+	move_and_slide()
 
 func hit(target: Node2D) -> void:
 	if target == last_hit_object: return # nao dar dano no mesmo alvo de novo

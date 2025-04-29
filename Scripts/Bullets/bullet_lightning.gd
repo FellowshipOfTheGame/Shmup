@@ -9,7 +9,6 @@ func on_hit() -> void:
 		bounces += 1
 		var bodies = area.get_overlapping_bodies()
 		bodies.shuffle()
-		print(bodies)
 		for body in bodies:
 			if body != last_hit_object:
 				adjust_rotation(body)
