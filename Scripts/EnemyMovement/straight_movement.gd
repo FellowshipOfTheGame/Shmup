@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
-@export var angle : float
-@export var vertical_speed : int
+@export var angle : float = 0 # em radianos
+@export var vertical_speed : int = 75
 
 func _ready() -> void:
 	add_to_group("enemy")

@@ -10,7 +10,6 @@ position = Vector2(605, 561)
 
 [node name="Enemy" parent="." instance=ExtResource("2_qxrlw")]
 position = Vector2(56, 113)
-horizontal_speed = 150
 
 [node name="Enemy2" parent="." instance=ExtResource("2_qxrlw")]
 position = Vector2(170, 20)

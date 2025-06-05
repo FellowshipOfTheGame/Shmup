@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
-@export var horizontal_speed : int
-@export var horizontal_time : float
-@export var move_right : bool
-@export var vertical_speed : int
+@export var horizontal_speed : int = 100
+@export var horizontal_time : float = 1.0
+@export var move_right : bool # comeca mexendo pra direita ou pra esquerda
+@export var vertical_speed : int = 100
 
 func _ready() -> void:
 	add_to_group("enemy")
