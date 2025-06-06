@@ -9,28 +9,25 @@
 position = Vector2(605, 561)
 
 [node name="Enemy" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(130, 89)
+position = Vector2(56, 113)
 
 [node name="Enemy2" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(282, 93)
+position = Vector2(170, 20)
 
 [node name="Enemy3" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(430, 88)
+position = Vector2(256, 161)
 
 [node name="Enemy4" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(558, 91)
+position = Vector2(374, 43)
 
 [node name="Enemy5" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(710, 90)
+position = Vector2(474, 164)
 
 [node name="Enemy6" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(900, 87)
+position = Vector2(719, 81)
 
 [node name="Enemy7" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(1018, 86)
+position = Vector2(881, 162)
 
 [node name="Enemy8" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(805, 134)
-
-[node name="Enemy9" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(869, 163)
+position = Vector2(1022, 84)
