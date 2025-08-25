@@ -1,0 +1,53 @@
+[gd_scene load_steps=6 format=3 uid="uid://va2f6tp714k8"]
+
+[ext_resource type="Script" uid="uid://dorw0fotptiio" path="res://Scenes/background.gd" id="1_pojwb"]
+[ext_resource type="Texture2D" uid="uid://dk8dwvyc6636d" path="res://Assets/backgrounds/moon_sky.png" id="1_sn1xx"]
+[ext_resource type="Texture2D" uid="uid://c0pqk18pv6vft" path="res://Assets/backgrounds/moon_back.png" id="3_ltlj5"]
+[ext_resource type="Texture2D" uid="uid://4mwyusrflxow" path="res://Assets/backgrounds/moon_mid.png" id="4_rymcx"]
+[ext_resource type="Texture2D" uid="uid://b2kytir3agxnn" path="res://Assets/backgrounds/moon_front.png" id="5_42s4r"]
+
+[node name="Background" type="ParallaxBackground"]
+script = ExtResource("1_pojwb")
+
+[node name="Void" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.25, 0.25)
+motion_mirroring = Vector2(0, 475)
+
+[node name="Sprite2D" type="Sprite2D" parent="Void"]
+position = Vector2(250, 0)
+rotation = 1.5708
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("1_sn1xx")
+centered = false
+
+[node name="Back" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(0, 950)
+
+[node name="Sprite2D" type="Sprite2D" parent="Back"]
+position = Vector2(250, 0)
+rotation = 1.5708
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("3_ltlj5")
+centered = false
+
+[node name="Mid" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.75, 0.75)
+motion_mirroring = Vector2(0, 950)
+
+[node name="Sprite2D" type="Sprite2D" parent="Mid"]
+position = Vector2(250, 0)
+rotation = 1.5708
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_rymcx")
+centered = false
+
+[node name="Front" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(0, 950)
+
+[node name="Sprite2D" type="Sprite2D" parent="Front"]
+position = Vector2(250, 0)
+rotation = 1.5708
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("5_42s4r")
+centered = false
