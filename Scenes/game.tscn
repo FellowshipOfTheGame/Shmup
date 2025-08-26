@@ -1,33 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://cvh576stb81qw"]
+[gd_scene load_steps=4 format=3 uid="uid://cvh576stb81qw"]
 
 [ext_resource type="PackedScene" uid="uid://dwgyk3mxpxioo" path="res://Scenes/witch.tscn" id="1_ebmjs"]
-[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://Scenes/enemy.tscn" id="2_qxrlw"]
+[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://Scenes/enemy.tscn" id="3_3dryh"]
+[ext_resource type="Script" uid="uid://c36lr70rkpyth" path="res://Scripts/wave_manager.gd" id="3_wrm1d"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Witch" parent="." instance=ExtResource("1_ebmjs")]
 position = Vector2(605, 561)
 
-[node name="Enemy" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(56, 113)
-
-[node name="Enemy2" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(170, 20)
-
-[node name="Enemy3" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(256, 161)
-
-[node name="Enemy4" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(374, 43)
-
-[node name="Enemy5" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(474, 164)
-
-[node name="Enemy6" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(719, 81)
-
-[node name="Enemy7" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(881, 162)
-
-[node name="Enemy8" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(1022, 84)
+[node name="wave_manager" type="Node2D" parent="."]
+script = ExtResource("3_wrm1d")
+enemy_1 = ExtResource("3_3dryh")

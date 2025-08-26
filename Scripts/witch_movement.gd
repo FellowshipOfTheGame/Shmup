@@ -10,7 +10,7 @@ func _ready() -> void:
 	# get stats from a node
 	# se for um missel teleguiado, rodar uma funcao com while true
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	# talvez tenha que separar o movimento vertical do horizontal pra fazer o smoothing certo
 	input = Vector2( Input.get_axis("left", "right") , Input.get_axis("up", "down") ).normalized()
 	velocity = velocity.move_toward(input * speed, accel)

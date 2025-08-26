@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://bwx7q6r4k8bp2"]
 
-[ext_resource type="Script" uid="uid://cjal1gci0e8mm" path="res://Scripts/EnemyMovement/sawtooth_movement.gd" id="1_afpow"]
+[ext_resource type="Script" uid="uid://gr0vrnfrodon" path="res://Scripts/enemy.gd" id="1_afpow"]
 [ext_resource type="Texture2D" uid="uid://bdggabjkh8dk1" path="res://Sprites/demon.png" id="1_hghv2"]
-[ext_resource type="Script" uid="uid://bl5h4mu01vrt6" path="res://Scripts/health.gd" id="2_1f0kj"]
+[ext_resource type="Script" uid="uid://d0e4iwdp4s1xg" path="res://Scripts/enemy_health.gd" id="3_afpow"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ne65n"]
 radius = 41.0
@@ -20,5 +20,5 @@ texture = ExtResource("1_hghv2")
 position = Vector2(0, -2)
 shape = SubResource("CircleShape2D_ne65n")
 
-[node name="Health" type="Node" parent="."]
-script = ExtResource("2_1f0kj")
+[node name="enemy_health" type="Node" parent="."]
+script = ExtResource("3_afpow")
