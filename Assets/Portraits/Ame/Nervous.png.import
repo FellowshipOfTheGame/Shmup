@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6p6rw2odyqsp"
-path="res://.godot/imported/nervous.png-8109c7c2d7087221740b772f22c496d1.ctex"
+path="res://.godot/imported/Nervous.png-7eb3609a35bdcc248f6fb4e5742276cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/portraits/ame/nervous.png"
-dest_files=["res://.godot/imported/nervous.png-8109c7c2d7087221740b772f22c496d1.ctex"]
+source_file="res://Assets/Portraits/Ame/Nervous.png"
+dest_files=["res://.godot/imported/Nervous.png-7eb3609a35bdcc248f6fb4e5742276cc.ctex"]
 
 [params]
 

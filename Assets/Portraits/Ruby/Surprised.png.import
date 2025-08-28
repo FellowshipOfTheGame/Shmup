@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnt4mvc2e3kfs"
-path="res://.godot/imported/surprised.png-c8695b3f907b5a156efd7db5f21c14b3.ctex"
+path="res://.godot/imported/Surprised.png-9c148528368cfdf42d7450db5a9f985f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/portraits/ruby/surprised.png"
-dest_files=["res://.godot/imported/surprised.png-c8695b3f907b5a156efd7db5f21c14b3.ctex"]
+source_file="res://Assets/Portraits/Ruby/Surprised.png"
+dest_files=["res://.godot/imported/Surprised.png-9c148528368cfdf42d7450db5a9f985f.ctex"]
 
 [params]
 

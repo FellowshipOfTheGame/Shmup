@@ -21,11 +21,6 @@ Health="*res://scripts/health.gd"
 
 [display]
 
-window/size/viewport_width=270
-window/size/viewport_height=360
-
-[display]
-
 window/size/viewport_width=1920
 window/size/viewport_height=1080
 

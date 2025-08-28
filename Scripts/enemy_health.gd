@@ -1,4 +1,4 @@
-extends "res://Scripts/health.gd"
+extends "res://scripts/health.gd"
 class_name EnemyHealth
 
 @export var life_time: float = 10

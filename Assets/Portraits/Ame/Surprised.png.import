@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brnxkqqbocs05"
-path="res://.godot/imported/surprised.png-a3f1f231c98ca60b78adcc75d2c55796.ctex"
+path="res://.godot/imported/Surprised.png-dbdf452aee9c4d48e25781ea6437b255.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/portraits/ame/surprised.png"
-dest_files=["res://.godot/imported/surprised.png-a3f1f231c98ca60b78adcc75d2c55796.ctex"]
+source_file="res://Assets/Portraits/Ame/Surprised.png"
+dest_files=["res://.godot/imported/Surprised.png-dbdf452aee9c4d48e25781ea6437b255.ctex"]
 
 [params]
 

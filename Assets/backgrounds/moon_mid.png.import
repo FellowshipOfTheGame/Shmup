@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://4mwyusrflxow"
-path="res://.godot/imported/moon_mid.png-76812a9072ae0499c81517b477c139fe.ctex"
+path="res://.godot/imported/moon_mid.png-506f18aff4e494eb0b320e37663b30f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/moon_mid.png"
-dest_files=["res://.godot/imported/moon_mid.png-76812a9072ae0499c81517b477c139fe.ctex"]
+source_file="res://Assets/backgrounds/moon_mid.png"
+dest_files=["res://.godot/imported/moon_mid.png-506f18aff4e494eb0b320e37663b30f1.ctex"]
 
 [params]
 
