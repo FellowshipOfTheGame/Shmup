@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddymismk6ppxm"
-path="res://.godot/imported/EyesClosed.png-a72949d7f109fd8724b0ba2ebea70dcf.ctex"
+path="res://.godot/imported/eyes_closed.png-27f4f65c1947606cc5fdb60f7d0017f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Portraits/Ame/EyesClosed.png"
-dest_files=["res://.godot/imported/EyesClosed.png-a72949d7f109fd8724b0ba2ebea70dcf.ctex"]
+source_file="res://assets/portraits/ame/eyes_closed.png"
+dest_files=["res://.godot/imported/eyes_closed.png-27f4f65c1947606cc5fdb60f7d0017f1.ctex"]
 
 [params]
 

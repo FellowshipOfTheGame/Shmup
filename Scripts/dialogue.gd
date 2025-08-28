@@ -9,7 +9,7 @@ var dialogue_data = []
 var current_line = 0
 
 func _ready():
-	load_dialogue("res://Assets/Dialogues/stage-1-pre-boss.json")
+	load_dialogue("res://assets/dialogues/stage-1-pre-boss.json")
 	show_next_line()
 
 func load_dialogue(path: String):
@@ -31,11 +31,11 @@ func show_next_line():
 
 	# Load portraits
 	if line["portrait_left"]:
-		left_portrait.texture = load("res://Assets/Portraits/" + line["portrait_left"] + ".png")
+		left_portrait.texture = load("res://assets/portraits/" + line["portrait_left"] + ".png")
 	else:
 		left_portrait.visible = false
 	if line["portrait_right"]:
-		right_portrait.texture = load("res://Assets/Portraits/" + line["portrait_right"] + ".png")
+		right_portrait.texture = load("res://assets/portraits/" + line["portrait_right"] + ".png")
 	else:
 		right_portrait.visible = false
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwp1nkpo3y4ps"
-path="res://.godot/imported/Defeated.png-3cac6ac07533c518d2900df15fc5d620.ctex"
+path="res://.godot/imported/defeated.png-dd05ae02c3e4c1ab04c2153024916f90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Portraits/Ruby/Defeated.png"
-dest_files=["res://.godot/imported/Defeated.png-3cac6ac07533c518d2900df15fc5d620.ctex"]
+source_file="res://assets/portraits/ruby/defeated.png"
+dest_files=["res://.godot/imported/defeated.png-dd05ae02c3e4c1ab04c2153024916f90.ctex"]
 
 [params]
 

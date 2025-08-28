@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://bwx7q6r4k8bp2"]
 
-[ext_resource type="Script" uid="uid://cjal1gci0e8mm" path="res://Scripts/EnemyMovement/sawtooth_movement.gd" id="1_afpow"]
-[ext_resource type="Texture2D" uid="uid://bdggabjkh8dk1" path="res://Sprites/demon.png" id="1_hghv2"]
-[ext_resource type="Script" uid="uid://bl5h4mu01vrt6" path="res://Scripts/health.gd" id="2_1f0kj"]
+[ext_resource type="Script" uid="uid://cjal1gci0e8mm" path="res://scripts/enemy_movement/sawtooth_movement.gd" id="1_afpow"]
+[ext_resource type="Texture2D" uid="uid://bdggabjkh8dk1" path="res://sprites/demon.png" id="1_hghv2"]
+[ext_resource type="Script" uid="uid://bl5h4mu01vrt6" path="res://scripts/health.gd" id="2_1f0kj"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ne65n"]
 radius = 41.0

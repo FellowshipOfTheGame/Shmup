@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cvh576stb81qw"]
 
-[ext_resource type="PackedScene" uid="uid://dwgyk3mxpxioo" path="res://Scenes/witch.tscn" id="1_ebmjs"]
-[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://Scenes/enemy.tscn" id="2_qxrlw"]
+[ext_resource type="PackedScene" uid="uid://dwgyk3mxpxioo" path="res://scenes/witch.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://scenes/enemy.tscn" id="2_qxrlw"]
 
 [node name="Game" type="Node2D"]
 
