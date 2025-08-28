@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdggabjkh8dk1"
-path="res://.godot/imported/demon.png-32a354709c9710168b2e6521f293aa1a.ctex"
+uid="uid://ctscyb3kcwcni"
+path="res://.godot/imported/defeated.png-5ef2c7ed53695daeff50e5c54042714e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/demon.png"
-dest_files=["res://.godot/imported/demon.png-32a354709c9710168b2e6521f293aa1a.ctex"]
+source_file="res://assets/portraits/ame/defeated.png"
+dest_files=["res://.godot/imported/defeated.png-5ef2c7ed53695daeff50e5c54042714e.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bdggabjkh8dk1"
-path="res://.godot/imported/demon.png-32a354709c9710168b2e6521f293aa1a.ctex"
+uid="uid://dc0i7o6g61ll2"
+path="res://.godot/imported/content.png-fc7510abfed63acd5d188f8bbd21546c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/demon.png"
-dest_files=["res://.godot/imported/demon.png-32a354709c9710168b2e6521f293aa1a.ctex"]
+source_file="res://assets/portraits/ame/content.png"
+dest_files=["res://.godot/imported/content.png-fc7510abfed63acd5d188f8bbd21546c.ctex"]
 
 [params]
 

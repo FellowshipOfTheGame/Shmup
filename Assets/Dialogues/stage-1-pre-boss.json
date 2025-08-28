@@ -1,0 +1,86 @@
+[
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/Surprised",
+		"portrait_right": "Ruby/Regular",
+		"active_speaker_side": "left",
+		"text": "Ruby? O que você está fazendo aqui?"
+	},
+	{
+		"speaker": "Ruby",
+		"portrait_left": "Ame/Surprised",
+		"portrait_right": "Ruby/Annoyed",
+		"active_speaker_side": "right",
+		"text": "Você não se lembra? Você me prometeu que ia me ensinar a ler runas hoje!"
+	},
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/Nervous",
+		"portrait_right": "Ruby/Annoyed",
+		"active_speaker_side": "left",
+		"text": "Eu não tenho tempo para isso agora."
+	},
+	{
+		"speaker": "Ruby",
+		"portrait_left": "Ame/Nervous",
+		"portrait_right": "Ruby/Annoyed",
+		"active_speaker_side": "right",
+		"text": "Na-na-ni-na-não! Você não vai fugir de novo!"
+	},
+	{
+		"speaker": "Ruby",
+		"portrait_left": "Ame/Nervous",
+		"portrait_right": "Ruby/Sigh",
+		"active_speaker_side": "right",
+		"text": "E de qualquer forma, o que você tem para fazer aqui que não pode esperar?"
+	},
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/TimidSmile",
+		"portrait_right": "Ruby/Sigh",
+		"active_speaker_side": "left",
+		"text": "Estou indo buscar o Geodo no Inferno."
+	},
+	{
+		"speaker": "Ruby",
+		"portrait_left": "Ame/TimidSmile",
+		"portrait_right": "Ruby/Regular",
+		"active_speaker_side": "right",
+		"text": "Seu familiar? Por que só não invoca outro?"
+	},
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/EyesClosed",
+		"portrait_right": "Ruby/Regular",
+		"active_speaker_side": "left",
+		"text": "Por que eu tenho que explicar isso para você?"
+	},
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/Surprised",
+		"portrait_right": "Ruby/Regular",
+		"active_speaker_side": "left",
+		"text": "Espera, eu não tenho."
+	},
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/Annoyed",
+		"portrait_right": "Ruby/Regular",
+		"active_speaker_side": "left",
+		"text": "Sai da frente, pirralha!"
+	},
+	{
+		"speaker": "Ruby",
+		"portrait_left": "Ame/Annoyed",
+		"portrait_right": "Ruby/Smug",
+		"active_speaker_side": "right",
+		"text": "Tão malvada... Você vai me ensinar a ler runas queira você ou não!"
+	},
+	{
+		"speaker": "Ame",
+		"portrait_left": "Ame/Content",
+		"portrait_right": "Ruby/Smug",
+		"active_speaker_side": "left",
+		"text": "Já está na hora de alguém te ensinar boas maneiras."
+	}
+]

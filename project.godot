@@ -17,7 +17,12 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Health="*res://Scripts/health.gd"
+Health="*res://scripts/health.gd"
+
+[display]
+
+window/size/viewport_width=270
+window/size/viewport_height=360
 
 [display]
 
@@ -60,6 +65,7 @@ left={
 2d_physics/layer_1="Player"
 2d_physics/layer_2="Bullet"
 2d_physics/layer_3="Enemy"
+2d_physics/layer_4="Dialogue"
 
 [rendering]
 

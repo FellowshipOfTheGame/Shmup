@@ -1,8 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://cdketac5g2oc8"]
-
-[ext_resource type="Script" uid="uid://67eqj4gemx2d" path="res://Scripts/WeaponLevels/w_default.gd" id="1_dnk13"]
-[ext_resource type="PackedScene" uid="uid://clhjotdvvnvnu" path="res://Scenes/Bullets/default_bullet.tscn" id="2_1ahkg"]
-
-[node name="lighning_1" type="Node"]
-script = ExtResource("1_dnk13")
-bullet_scene = ExtResource("2_1ahkg")

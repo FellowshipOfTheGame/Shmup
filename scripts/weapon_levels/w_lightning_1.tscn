@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bk0w0oxoif2y4"]
+
+[ext_resource type="Script" uid="uid://dhj42j772hdd8" path="res://scripts/weapon_levels/w_lightning.gd" id="1_b00q8"]
+[ext_resource type="PackedScene" uid="uid://dfevp4rsbou35" path="res://scenes/bullets/lightning_bullet.tscn" id="2_qo2g5"]
+
+[node name="WLightning1" type="Node"]
+script = ExtResource("1_b00q8")
+bounce_amount = 3
+bullet_scene = ExtResource("2_qo2g5")

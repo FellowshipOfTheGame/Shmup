@@ -1,4 +1,4 @@
-extends "res://Scripts/WeaponLevels/w_default.gd"
+extends "res://scripts/weapon_levels/w_default.gd"
 
 @export var bounce_amount : int
 
