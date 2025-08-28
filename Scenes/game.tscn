@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cvh576stb81qw"]
+[gd_scene load_steps=5 format=3 uid="uid://cvh576stb81qw"]
 
 [ext_resource type="PackedScene" uid="uid://dwgyk3mxpxioo" path="res://Scenes/witch.tscn" id="1_ebmjs"]
-[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://Scenes/enemy.tscn" id="3_3dryh"]
+[ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://Scenes/Enemies/normal_enemy.tscn" id="3_3dryh"]
 [ext_resource type="Script" uid="uid://c36lr70rkpyth" path="res://Scripts/wave_manager.gd" id="3_wrm1d"]
+[ext_resource type="PackedScene" uid="uid://og04cn1cr1cd" path="res://Scenes/Enemies/shooter_enemy.tscn" id="4_wowpa"]
 
 [node name="Game" type="Node2D"]
 
@@ -11,4 +12,5 @@ position = Vector2(605, 561)
 
 [node name="wave_manager" type="Node2D" parent="."]
 script = ExtResource("3_wrm1d")
-enemy_1 = ExtResource("3_3dryh")
+normal_enemy = ExtResource("3_3dryh")
+shooter_enemy = ExtResource("4_wowpa")

@@ -6,7 +6,5 @@
 [node name="Weapon" type="Node2D"]
 script = ExtResource("1_er6cq")
 
-[node name="BulletHolder" type="Node" parent="."]
-
 [node name="WLightning1" parent="." instance=ExtResource("2_e1ly8")]
 bounce_amount = 2

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://clhjotdvvnvnu"]
 
-[ext_resource type="Script" uid="uid://d16tay568rqod" path="res://Scripts/Bullets/bullet_default.gd" id="1_htcv0"]
+[ext_resource type="Script" uid="uid://d16tay568rqod" path="res://Scripts/Bullets/default_bullet.gd" id="1_htcv0"]
 [ext_resource type="Texture2D" uid="uid://bl4v4gits34wr" path="res://Sprites/fire.png" id="2_dq1oh"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_oduel"]
@@ -8,7 +8,7 @@ radius = 17.1172
 
 [node name="Bullet" type="CharacterBody2D"]
 collision_layer = 2
-collision_mask = 4
+collision_mask = 5
 script = ExtResource("1_htcv0")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

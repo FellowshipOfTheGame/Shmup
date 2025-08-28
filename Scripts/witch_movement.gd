@@ -6,7 +6,7 @@ extends CharacterBody2D
 var input: Vector2
 
 func _ready() -> void:
-	pass
+	add_to_group("player")
 	# get stats from a node
 	# se for um missel teleguiado, rodar uma funcao com while true
 

@@ -1,10 +1,11 @@
 extends Node
 
-@export var weapon_fire_rate : float = 1
+@export var weapon_fire_rate: float = 1
 @export var weapon_spread: float = 0
-@export var bullet_damage : int = 50
-@export var bullet_scene : PackedScene
-@export var bullet_speed : int = 750
+@export var bullet_damage: int = 50
+@export var bullet_scene: PackedScene
+@export var bullet_speed: int = 750
+@export var bullet_offset: int = -20
 
 func get_stats() -> Dictionary: # GDScript ainda nao tem structs, entao tem que passar um dicionario
 	return {
@@ -12,7 +13,8 @@ func get_stats() -> Dictionary: # GDScript ainda nao tem structs, entao tem que 
 		"weapon_spread": weapon_spread,
 		"bullet_damage": bullet_damage,
 		"bullet_scene":  bullet_scene,
-		"bullet_speed":  bullet_speed
+		"bullet_speed":  bullet_speed,
+		"bullet_offset": bullet_offset
 	}
 
 # pra dar override nas funcoes dos filhos tem que fazer isso

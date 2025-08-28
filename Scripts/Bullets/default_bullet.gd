@@ -15,12 +15,11 @@ func _physics_process(_delta: float) -> void:
 	move_and_slide()
 
 func hit(target: Node2D) -> void:
+	print("hit")
 	if target == last_hit_object: return # nao dar dano no mesmo alvo de novo
 	last_hit_object = target
-	if target.is_in_group("enemy"):
-		target.get_node("enemy_health").take_damage(stats["bullet_damage"])
-		on_hit()
-	#else: animacao de destruir
+	target.get_node("health").take_damage(stats["bullet_damage"])
+	on_hit()
 
 func on_hit() -> void:
 	queue_free() # destroy()

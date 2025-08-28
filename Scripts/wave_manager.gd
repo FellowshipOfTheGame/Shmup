@@ -4,10 +4,10 @@ var can_spawn: bool = true
 var wave_count: int
 var enemy_count: int
 var player_score: int
-@export var enemy_1: PackedScene
-#@export var enemy_2: PackedScene
-@export var time_between_waves: float = 1
-@export var time_between_spawns: float = 1
+var time_between_waves: float = 1
+var time_between_spawns: float = 1
+@export var normal_enemy: PackedScene
+@export var shooter_enemy: PackedScene
 @onready var screen_width: int = get_window().size.x
 @onready var screen_height_offset: int = ceil( get_window().size.y * -0.05 ) # offset pros inimigos aparecerem logo fora da tela
 
@@ -23,32 +23,53 @@ func spawn_enemies():
 	while not can_spawn: get_tree().process_frame
 	await timer(time_between_waves)
 	wave_count += 1
-	print("wave count: ", wave_count)
 	
-	match randi_range(0, 2): # escolhe entre os sets de waves
+	match randi_range(4, 4): # escolhe entre os sets de waves
 		0:
 			wave_size = 3
-			enemy_scene = enemy_1
+			enemy_scene = normal_enemy
 			enemy_movement = "vertical"
 		1:
 			wave_size = 2
-			enemy_scene = enemy_1
+			enemy_scene = normal_enemy
 			enemy_movement = "zigzag"
 		2:
 			wave_size = 4
-			enemy_scene = enemy_1
+			enemy_scene = normal_enemy
 			enemy_movement = "square"
+		3:
+			wave_size = 2
+			enemy_scene = normal_enemy
+			enemy_movement = "follow"
+		
+		4:
+			wave_size = 3
+			enemy_scene = shooter_enemy
+			enemy_movement = "vertical"
+		5:
+			wave_size = 2
+			enemy_scene = shooter_enemy
+			enemy_movement = "zigzag"
+		6:
+			wave_size = 4
+			enemy_scene = shooter_enemy
+			enemy_movement = "square"
+		7:
+			wave_size = 2
+			enemy_scene = shooter_enemy
+			enemy_movement = "follow"
 	
+	print("wave count: ", wave_count, " - ", enemy_movement)
 	can_spawn = false
 	for i in range(wave_size):
-		var spawned_enemy = enemy_scene.instantiate() as Enemy
+		var spawned_enemy = enemy_scene.instantiate() as Enemy # importa com a classe pra puxar o autocomplete
 		add_child(spawned_enemy) # a scena tem que ser instanciada pra poder rodar o _onready e inicializar
 		enemy_count += 1
 		
-		spawned_enemy.position = Vector2( (i+1) * screen_width / (wave_size+1), screen_height_offset ) # spawna os inimigos igualmente espacados ao centro da tela
+		spawned_enemy.position = Vector2( (i+1)*screen_width / (wave_size+1), screen_height_offset ) # spawna os inimigos igualmente espacados ao centro da tela
 		print("enemy ", i, " position: ", spawned_enemy.position)
 		spawned_enemy.set_movement_type(enemy_movement)
-		spawned_enemy.get_node("enemy_health").connect("enemy_killed", Callable(self, "enemy_killed"))
+		spawned_enemy.get_node("health").connect("enemy_killed", Callable(self, "enemy_killed"))
 		await timer(time_between_spawns)
 	
 	can_spawn = true

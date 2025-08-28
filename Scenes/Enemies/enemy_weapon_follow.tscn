@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://wbbqrm4vpc4j"]
+
+[ext_resource type="Script" uid="uid://dkqjuuxsocb6r" path="res://Scripts/weapon.gd" id="1_h63r7"]
+[ext_resource type="PackedScene" uid="uid://cdketac5g2oc8" path="res://Scripts/WeaponLevels/w_default_1.tscn" id="2_loho2"]
+
+[node name="enemy_weapon_follow" type="Node2D"]
+script = ExtResource("1_h63r7")
+
+[node name="BulletHolder" type="Node" parent="."]
+
+[node name="lighning_1" parent="." instance=ExtResource("2_loho2")]
