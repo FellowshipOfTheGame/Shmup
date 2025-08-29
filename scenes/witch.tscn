@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://dwgyk3mxpxioo"]
+
+[ext_resource type="Script" uid="uid://btpvv7vomy3jd" path="res://scripts/witch_movement.gd" id="1_61xru"]
+[ext_resource type="Texture2D" uid="uid://8foucwjrlk07" path="res://sprites/witch.png" id="2_rrl02"]
+[ext_resource type="PackedScene" uid="uid://bymmrt877w8sg" path="res://scenes/weapon.tscn" id="3_rrl02"]
+[ext_resource type="Script" uid="uid://3htp6rvtxfj0" path="res://scripts/player_health.gd" id="4_d6wki"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_d6wki"]
+radius = 46.5027
+
+[node name="Witch" type="CharacterBody2D"]
+collision_mask = 7
+script = ExtResource("1_61xru")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_rrl02")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 6)
+shape = SubResource("CircleShape2D_d6wki")
+
+[node name="Weapon" parent="." instance=ExtResource("3_rrl02")]
+
+[node name="health" type="Node" parent="."]
+script = ExtResource("4_d6wki")
