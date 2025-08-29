@@ -1,9 +1,51 @@
-[gd_scene load_steps=6 format=3 uid="uid://og04cn1cr1cd"]
+[gd_scene load_steps=12 format=3 uid="uid://og04cn1cr1cd"]
 
 [ext_resource type="Script" uid="uid://gr0vrnfrodon" path="res://scripts/enemy.gd" id="1_0uxgp"]
 [ext_resource type="Texture2D" uid="uid://bdggabjkh8dk1" path="res://sprites/demon.png" id="2_1vadd"]
 [ext_resource type="Script" uid="uid://d0e4iwdp4s1xg" path="res://scripts/enemy_health.gd" id="3_30lxa"]
+[ext_resource type="Texture2D" uid="uid://dvkjjgu6veh4l" path="res://assets/sprites/enemies/dragon.png" id="3_yb54f"]
 [ext_resource type="PackedScene" uid="uid://bih240ce4qtu4" path="res://scenes/enemies/enemy_weapon_base.tscn" id="4_1vadd"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1hb1"]
+atlas = ExtResource("3_yb54f")
+region = Rect2(0, 0, 1280, 1280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6466e"]
+atlas = ExtResource("3_yb54f")
+region = Rect2(1280, 0, 1280, 1280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1ypl"]
+atlas = ExtResource("3_yb54f")
+region = Rect2(2560, 0, 1280, 1280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ailp"]
+atlas = ExtResource("3_yb54f")
+region = Rect2(3840, 0, 1280, 1280)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_52qmt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1hb1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6466e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1ypl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7ailp")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ne65n"]
 radius = 41.0
@@ -16,6 +58,11 @@ script = ExtResource("1_0uxgp")
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.1, 0.1)
 texture = ExtResource("2_1vadd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_52qmt")
+animation = &"idle"
+autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -2)
