@@ -1,24 +1,62 @@
-[gd_scene load_steps=6 format=3 uid="uid://dwgyk3mxpxioo"]
+[gd_scene load_steps=11 format=3 uid="uid://dwgyk3mxpxioo"]
 
 [ext_resource type="Script" uid="uid://btpvv7vomy3jd" path="res://scripts/witch_movement.gd" id="1_61xru"]
-[ext_resource type="Texture2D" uid="uid://8foucwjrlk07" path="res://sprites/witch.png" id="2_rrl02"]
+[ext_resource type="Texture2D" uid="uid://cx8v08k615ubo" path="res://assets/sprites/player/tita_idle.png" id="2_xk447"]
 [ext_resource type="PackedScene" uid="uid://bymmrt877w8sg" path="res://scenes/weapon.tscn" id="3_rrl02"]
-[ext_resource type="Script" uid="uid://3htp6rvtxfj0" path="res://scripts/player_health.gd" id="4_d6wki"]
+[ext_resource type="Script" path="res://scripts/player_health.gd" id="4_d6wki"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_53435"]
+atlas = ExtResource("2_xk447")
+region = Rect2(0, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qrkn2"]
+atlas = ExtResource("2_xk447")
+region = Rect2(512, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vid1f"]
+atlas = ExtResource("2_xk447")
+region = Rect2(1024, 0, 512, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1g4oy"]
+atlas = ExtResource("2_xk447")
+region = Rect2(1536, 0, 512, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_80ajc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_53435")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qrkn2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vid1f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1g4oy")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 7.0
+}]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_d6wki"]
-radius = 46.5027
+radius = 21.0238
 
 [node name="Witch" type="CharacterBody2D"]
 collision_mask = 7
 script = ExtResource("1_61xru")
 metadata/_edit_group_ = true
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.1, 0.1)
-texture = ExtResource("2_rrl02")
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_80ajc")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.706263
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 6)
 shape = SubResource("CircleShape2D_d6wki")
 
 [node name="Weapon" parent="." instance=ExtResource("3_rrl02")]

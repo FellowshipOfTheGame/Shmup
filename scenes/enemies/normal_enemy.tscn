@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://gr0vrnfrodon" path="res://scripts/enemy.gd" id="1_afpow"]
 [ext_resource type="Texture2D" uid="uid://bdggabjkh8dk1" path="res://sprites/demon.png" id="1_hghv2"]
-[ext_resource type="Script" uid="uid://d0e4iwdp4s1xg" path="res://scripts/enemy_health.gd" id="3_afpow"]
+[ext_resource type="Script" path="res://scripts/enemy_health.gd" id="3_afpow"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ne65n"]
 radius = 41.0
