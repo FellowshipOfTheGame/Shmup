@@ -1,11 +1,11 @@
 extends Node
 
-@export var weapon_fire_rate: float = 1
-@export var weapon_spread: float = 0
-@export var bullet_damage: int = 50
 @export var bullet_scene: PackedScene
+@export var weapon_spread: float = 0
+@export var weapon_fire_rate: float = 1
 @export var bullet_speed: int = 750
-@export var bullet_offset: int = -20
+@export var bullet_damage: int = 50
+@export var bullet_offset: int = -20 # pra atirar um pouco a frente do player e nao ter auto colisao
 
 func get_stats() -> Dictionary: # GDScript ainda nao tem structs, entao tem que passar um dicionario
 	return {

@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://i8021dm8sq24"]
+
+[ext_resource type="Script" uid="uid://dhj42j772hdd8" path="res://scripts/bullet_stats/b_lightning_lvl_1.gd" id="1_deggx"]
+[ext_resource type="PackedScene" uid="uid://dfevp4rsbou35" path="res://scenes/bullets/lightning_bullet.tscn" id="2_bgucc"]
+
+[node name="BLightningLvl1" type="Node2D"]
+script = ExtResource("1_deggx")
+bullet_scene = ExtResource("2_bgucc")

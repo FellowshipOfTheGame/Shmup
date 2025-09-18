@@ -1,10 +1,9 @@
 [gd_scene load_steps=3 format=3 uid="uid://bymmrt877w8sg"]
 
 [ext_resource type="Script" uid="uid://dkqjuuxsocb6r" path="res://scripts/weapon.gd" id="1_er6cq"]
-[ext_resource type="PackedScene" uid="uid://bk0w0oxoif2y4" path="res://scripts/weapon_levels/w_lightning_1.tscn" id="2_e1ly8"]
+[ext_resource type="PackedScene" uid="uid://i8021dm8sq24" path="res://scripts/bullet_stats/b_lightning_lvl_1.tscn" id="2_uxn4k"]
 
 [node name="Weapon" type="Node2D"]
 script = ExtResource("1_er6cq")
 
-[node name="WLightning1" parent="." instance=ExtResource("2_e1ly8")]
-bounce_amount = 2
+[node name="BLightningLvl1" parent="." instance=ExtResource("2_uxn4k")]

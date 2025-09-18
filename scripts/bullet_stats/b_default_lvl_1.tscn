@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1x6mlxo2twn4"]
+
+[ext_resource type="Script" uid="uid://d2rylko56pgsh" path="res://scripts/bullet_stats/b_default_lvl_1.gd" id="1_ey0gv"]
+[ext_resource type="PackedScene" uid="uid://clhjotdvvnvnu" path="res://scenes/bullets/default_bullet.tscn" id="2_hdop6"]
+
+[node name="BDefaultLvl1" type="Node2D"]
+script = ExtResource("1_ey0gv")
+bullet_scene = ExtResource("2_hdop6")

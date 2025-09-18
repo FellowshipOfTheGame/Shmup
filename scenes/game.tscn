@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://dwgyk3mxpxioo" path="res://scenes/witch.tscn" id="1_ebmjs"]
 [ext_resource type="PackedScene" uid="uid://bwx7q6r4k8bp2" path="res://scenes/enemies/normal_enemy.tscn" id="3_3dryh"]
-[ext_resource type="Script" path="res://scripts/wave_manager.gd" id="3_wrm1d"]
+[ext_resource type="Script" uid="uid://c36lr70rkpyth" path="res://scripts/wave_manager.gd" id="3_wrm1d"]
 [ext_resource type="PackedScene" uid="uid://og04cn1cr1cd" path="res://scenes/enemies/shooter_enemy.tscn" id="4_wowpa"]
 [ext_resource type="PackedScene" uid="uid://va2f6tp714k8" path="res://scenes/background.tscn" id="5_iywne"]
 

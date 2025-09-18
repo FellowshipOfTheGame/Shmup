@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://clhjotdvvnvnu" path="res://scenes/bullets/default_bullet.tscn" id="1_mo4f5"]
 [ext_resource type="Texture2D" uid="uid://d0r3bbcwol7cx" path="res://sprites/lightning.png" id="2_e1pc5"]
-[ext_resource type="Script" uid="uid://c2f248ckfm4p6" path="res://scripts/bullets/bullet_lightning.gd" id="2_x6qoc"]
+[ext_resource type="Script" uid="uid://c2f248ckfm4p6" path="res://scripts/bullet_movement/b_lightning_movement.gd" id="2_x6qoc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_x6qoc"]
 

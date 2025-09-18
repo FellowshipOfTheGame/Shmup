@@ -1,4 +1,4 @@
-extends "res://scripts/weapon_levels/w_default.gd"
+extends "res://scripts/bullet_stats/b_default_lvl_1.gd"
 
 func get_stats() -> Dictionary: # GDScript ainda nao tem structs, entao tem que passar um dicionario
 	return {

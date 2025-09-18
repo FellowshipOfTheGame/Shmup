@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://btpvv7vomy3jd" path="res://scripts/witch_movement.gd" id="1_61xru"]
 [ext_resource type="Texture2D" uid="uid://cx8v08k615ubo" path="res://assets/sprites/player/tita_idle.png" id="2_xk447"]
 [ext_resource type="PackedScene" uid="uid://bymmrt877w8sg" path="res://scenes/weapon.tscn" id="3_rrl02"]
-[ext_resource type="Script" path="res://scripts/player_health.gd" id="4_d6wki"]
+[ext_resource type="Script" uid="uid://3htp6rvtxfj0" path="res://scripts/player_health.gd" id="4_d6wki"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_53435"]
 atlas = ExtResource("2_xk447")

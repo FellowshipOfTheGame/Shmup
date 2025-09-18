@@ -1,6 +1,6 @@
-extends "res://scripts/weapon_levels/w_default.gd"
+extends "res://scripts/bullet_stats/b_default_lvl_1.gd"
 
-@export var bounce_amount : int
+@export var bounce_amount : int = 3
 
 func get_stats() -> Dictionary:
 	# Get base stats from parent

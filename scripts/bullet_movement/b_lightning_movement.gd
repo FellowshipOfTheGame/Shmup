@@ -1,4 +1,4 @@
-extends "res://scripts/bullets/default_bullet.gd"
+extends "res://scripts/bullet_movement/b_default_movement.gd"
 
 var bounce_range : float = 100.0
 var bounces : int = 0
